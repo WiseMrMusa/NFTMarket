@@ -33,6 +33,6 @@ export const CollateNFTs = ({ contractAddress, totalSupply = 1 }: CollateNFTtype
     return (
         // <div>Collate NFTS</div>
         // {contractToRead.map((e:SyntheticEvent) => <div>Hello</div>)}
-        <div className=" w-full grid grid-cols-3 gap-4 ">{contractToRead.map((e, i) => <DisplayNFT uri={e} key={i} />)}</div>
+        <div className=" w-full grid grid-cols-3 gap-4 ">{contractToRead.map((e, i) => <DisplayNFT uri={e as string} key={i} />)}</div>
     )
 }

@@ -25,7 +25,7 @@ export const DisplayNFT = ({ uri }: { uri: string }) => {
         { item: uri })
 
     return (
-        <ImageWithFallback src={keu} fallbackSrc={fetchData} className=" w-full" width="600" height="600" alt="well" />
+        <ImageWithFallback src={keu} fallbackSrc={fetchData} className=" w-full" width="600" height="600" alt="" />
         // <div>DisplayNFT {keu}</div>
         // <img src={keu} className='w-60 aspect-square'/>
     )

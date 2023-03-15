@@ -17,7 +17,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>{ NFT_Contract}</div>
+        <div>{NFT_Contract}</div>
       </main>
     </>
   );

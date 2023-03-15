@@ -2,7 +2,6 @@ import { CollateNFTs } from "@/components/CollateNFTs";
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { NFT } from "nft-market";
 import { useState } from "react";
 import { Address, useContract, useContractRead, useContractReads, erc721ABI } from 'wagmi';
 
